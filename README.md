@@ -111,7 +111,7 @@ To use your custom domain and establish a permanent link, configure a named tunn
     ```
 
 4.  **Configuration File:** Create a `config.yml` file to define the service routing rules. **Crucially, ensure there are no comments in the code, as per your instruction.**  
-```yml
+    ```yml
 tunnel: tunel-hostingmobile
 credentials-file: /root/.cloudflared/4****.json
 ingress:
