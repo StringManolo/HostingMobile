@@ -1,0 +1,23 @@
+{
+  "name": "hostingmobile",
+  "version": "1.0.0",
+  "description": "Allow to host services directly on mobile (CGNAT workaround)",
+  "homepage": "https://github.com/StringManolo/HostingMobile#readme",
+  "bugs": {
+    "url": "https://github.com/StringManolo/HostingMobile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StringManolo/HostingMobile.git"
+  },
+  "license": "ISC",
+  "author": "StringManolo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
