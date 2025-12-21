@@ -2,9 +2,8 @@
 
 **Host services directly from mobile devices and CG-NAT networks with zero infrastructure costs.**
 
-[![Zero Cost](https://img.shields.io/badge/cost-0€-brightgreen)](https://github.com/stringmanolo/hostingmobile)
-[![Open Source](https://img.shields.io/badge/license-MIT-blue)](https://github.com/stringmanolo/hostingmobile)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Android%20%7C%20Termux-lightgrey)](https://github.com/stringmanolo/hostingmobile)
+[![Zero Cost](https://img.shields.io/badge/cost-0€-orange)](https://github.com/stringmanolo/hostingmobile)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Android%20%7C%20Termux-orange)](https://github.com/stringmanolo/hostingmobile)
 
 ---
 
