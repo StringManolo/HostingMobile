@@ -1,0 +1,6 @@
+tunnel: cgnat-bypass
+credentials-file: /root/.cloudflared/1a11111a-11a1-1a11-a1a1-aa1aa11a11aa.json
+ingress:
+  - hostname: cgnat-bypass.stringmanolo.qzz.io
+    service: http://localhost:3000
+  - service: http_status:404
