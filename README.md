@@ -5,6 +5,8 @@
 [![Zero Cost](https://img.shields.io/badge/cost-0€-orange)](https://github.com/stringmanolo/hostingmobile)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Android%20%7C%20Termux-orange)](https://github.com/stringmanolo/hostingmobile)
 
+![hostingmobile](assets/hostingmobile.png)
+
 ---
 
 ## Overview
@@ -17,18 +19,6 @@ HostingMobile enables you to expose local services (HTTP/HTTPS, SSH, RDP, TCP, .
 - **Protocol Agnostic**: Native support for HTTP, SSH, RDP, TCP, and UDP via QUIC
 - **Production-Ready**: Custom domain support with free SSL certificates
 - **Cross-Platform**: Termux, Android, Linux, Raspberry Pi
-
----
-
-## Architecture
-
-```
-[Mobile Device/Local Server] → [cloudflared] → [Cloudflare Edge] → [Public Internet]
-      ↑                               ↑                        ↑
-      |                               |                        |
-  Local Service              Egress-only tunnel         Your custom domain
-  (Port 3000/22/3389)       No inbound ports open       No IP exposure
-```
 
 ---
 
